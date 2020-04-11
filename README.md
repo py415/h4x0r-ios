@@ -16,7 +16,7 @@ H4X0R is a news app that displays the latest articles on Hacker News using the H
 ### User Stories
 
 - [X] User shall be able to see a list of Hacker News articles upon app launch.
-- [ ] User shall be redirected to an article when they press a cell.
+- [X] User shall be redirected to an article when they press a cell.
 
 ## App Walkthrough
 
