@@ -13,6 +13,8 @@
 		72869F90244195370002EFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72869F8F244195370002EFAD /* Assets.xcassets */; };
 		72869F93244195370002EFAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72869F92244195370002EFAD /* Preview Assets.xcassets */; };
 		72869F96244195370002EFAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72869F94244195370002EFAD /* LaunchScreen.storyboard */; };
+		72A0A7812441A050002063EB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A0A7802441A050002063EB /* NetworkManager.swift */; };
+		72A0A7852441A1A1002063EB /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A0A7842441A1A1002063EB /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		72869F92244195370002EFAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		72869F95244195370002EFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72869F97244195370002EFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A0A7802441A050002063EB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		72A0A7842441A1A1002063EB /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		72869F88244195370002EFAD /* H4X0R */ = {
 			isa = PBXGroup;
 			children = (
+				72A0A77F2441A045002063EB /* Model */,
 				72869F91244195370002EFAD /* Preview Content */,
 				72869F9F2441955E0002EFAD /* Supporting Files */,
 				72869F9D244195480002EFAD /* View */,
@@ -97,6 +102,15 @@
 				72869F97244195370002EFAD /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72A0A77F2441A045002063EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72A0A7802441A050002063EB /* NetworkManager.swift */,
+				72A0A7842441A1A1002063EB /* PostData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A0A7852441A1A1002063EB /* PostData.swift in Sources */,
+				72A0A7812441A050002063EB /* NetworkManager.swift in Sources */,
 				72869F8A244195370002EFAD /* AppDelegate.swift in Sources */,
 				72869F8C244195370002EFAD /* SceneDelegate.swift in Sources */,
 				72869F8E244195370002EFAD /* ContentView.swift in Sources */,
