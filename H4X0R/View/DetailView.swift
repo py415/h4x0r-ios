@@ -10,7 +10,8 @@ import SwiftUI
 import WebKit
 
 struct DetailView: View {
-    
+
+    // MARK: - Properties
     let url: String?
     
     var body: some View {

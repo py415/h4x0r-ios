@@ -10,15 +10,18 @@ import Foundation
 
 struct Results: Decodable {
     
+    // MARK: - Properties
     let hits: [Post]
     
 }
 
 struct Post: Decodable, Identifiable {
-    
+
+    // MARK: - Properties
     var id: String {
         return objectID
     }
+    
     let objectID: String
     let points: Int
     let title: String

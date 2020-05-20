@@ -12,6 +12,7 @@ import SwiftUI
 
 struct WebView: UIViewRepresentable {
     
+    // MARK: - Properties
     let urlString: String?
     
     func makeUIView(context: Context) -> WebView.UIViewType {
