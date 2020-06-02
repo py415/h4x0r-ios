@@ -4,7 +4,7 @@
 1. [Overview](#Overview)
 2. [Product Specs](#Product-Specs)
 3. [App Walkthrough](#App-Walkthrough)
-4. [APIs Used](#APIs-Used)
+4. [APIs](#APIs)
 5. [Credits](#Credits)
 
 ## Overview
@@ -22,12 +22,12 @@ H4X0R is a news app that displays the latest articles on Hacker News using the H
 
 Here's a GIF of how the app works:
 
-<img src="https://user-images.githubusercontent.com/35745973/81491731-5afb3500-9246-11ea-90ea-32309a46f673.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/35745973/81491731-5afb3500-9246-11ea-90ea-32309a46f673.gif" width=250>
 
-## APIs Used
+## APIs
 
 - [HN Search API](https://hn.algolia.com/api) - This API is built on top of Algolia Search's API. It enables developers to access HN data programmatically using a REST API.
 
 ## Credits
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+>This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/).
