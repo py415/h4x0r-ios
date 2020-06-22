@@ -10,7 +10,7 @@
 ## Overview
 ### Description
 
-H4X0R is a news app that displays the latest articles on Hacker News using the HN Search API.
+H4X0R is a news app that displays the latest articles from Hacker News using the HN Search API.
 
 ## Product Specs
 ### User Stories
@@ -22,7 +22,7 @@ H4X0R is a news app that displays the latest articles on Hacker News using the H
 
 Here's a GIF of how the app works:
 
-<img src="https://user-images.githubusercontent.com/35745973/81491731-5afb3500-9246-11ea-90ea-32309a46f673.gif" width=250>
+<img src="https://github.com/py415/app-resources/blob/master/ios/ios-h4x0r.gif" width=250>
 
 ## APIs
 
