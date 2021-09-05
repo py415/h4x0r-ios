@@ -22,7 +22,7 @@ H4X0R is a news app that displays the latest articles from Hacker News using the
 
 Here's a GIF of how the app works:
 
-<img src="https://github.com/py415/app-resources/blob/master/ios/ios-h4x0r.gif" width=250>
+<img src="https://raw.githubusercontent.com/py415/app-resources/master/ios/ios-h4x0r.gif" width="250" />
 
 ## APIs
 
